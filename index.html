@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom basic Practice </title>
+    <!-- tailwind cnd -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- Body Background Color Change -->
+    <section>
+
+        <div class=" border-4 rounded-2xl shadow-2xl m-auto text-center mt-[130px] md:w-2xl md:h-2xl">
+            <h1 class="text-3xl font-bold  mt-5 mb-2">Change Body Background Color </h1>
+
+            <!-- Red Color BUtton  -->
+            <button id="red_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#e50909] text-white font-bold rounded-lg  outline-none  shadow-2xl">
+                BG-Red</button>
+
+            <!-- Green color btn  -->
+            <button id="green_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#086501] text-white font-bold rounded-lg  outline-none  shadow-2xl">
+                BG-Green</button>
+
+            <!-- Blue color btn  -->
+            <button id="blue_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#03058c] text-white font-bold rounded-lg  outline-none  shadow-2xl ">
+                BG-Blue</button>
+
+            <!-- purple color btn  -->
+            <button id="purple_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#8e13cf] text-white font-bold rounded-lg  outline-none  shadow-2xl ">
+                BG-Purple</button>
+
+            <!-- yellow color btn  -->
+            <button id="yellow_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#d5cf0f] text-white font-bold rounded-lg  outline-none  shadow-2xl">
+                BG-Yellow</button>
+
+            <!-- pink color btn  -->
+            <button id="pink_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#f35ea5] text-white font-bold rounded-lg  outline-none  shadow-2xl ">
+                BG-Pink</button>
+
+            <!-- orange color btn  -->
+            <button id="orange_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#f65e13] text-white font-bold rounded-lg  outline-none  shadow-2xl ">
+                BG-Orange</button>
+
+            <!-- Black color btn  -->
+            <button id="black_btn"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#050505] text-white font-bold rounded-lg  outline-none shadow-2xl ">
+                BG-Black</button>
+
+            <!-- random color  -->
+            <button id="random"
+                class="px-10 py-3 border mt-9 mb-2 bg-[#08bbcf] text-white font-bold rounded-lg  outline-none shadow-2xl "
+                onclick="changeColor()" >
+                BG-random</button>
+
+        </div>
+    </section>
+
+
+
+    <!-- Hello , your Name , Welcome massage  -->
+    <section class=" max-w[1440px] m-auto ">
+        <div class=" border m-auto text-center mt-10 md:w-2xl md:h-2xl shadow-2xl bg-[#B8F2BFF0] rounded-lg">
+            <!-- user name  -->
+            <h2 class="text-5xl font-extrabold  pt-7">User Name </h2>
+
+            <input id="input_userName" type="text" placeholder="Your name"
+                class="border-4 border-[#000067] text-center w-[80%] py-3 mt-8 bg-amber-50 placeholder:text-center font-bold text-black outline-none">
+            <br>
+            <!-- massage show -->
+            <button id="Submit_btn"
+                class="px-10 py-3 border mt-9 mb-9 bg-[#6f08d7] text-white font-bold rounded-lg  outline-none ">
+                Submit</button>
+        </div>
+
+        <div id="welcome_container"
+            class=" border m-auto text-center mt-[40px] md:w-2xl pb-5 shadow-2xl bg-[#B6BDF1FF] rounded-2xl space-y-[30px]">
+            <h2 class="text-5xl font-bold  mt-5 mb-5">Massage </h2>
+
+        </div>
+    </section>
+
+
+    
+
+    <script src="input.js"></script>
+    <script src="bg_color_btn.js"></script>
+</body>
+
+</html>
