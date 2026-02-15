@@ -121,14 +121,13 @@ document.getElementById('black_btn')
 
 //random color
 function changeColor() {
-    // র‍্যান্ডম RGB কালার তৈরি করা
+
     const red = Math.floor(Math.random() * 256);
     const green = Math.floor(Math.random() * 256);
     const blue = Math.floor(Math.random() * 256);
 
     const randomColor = `rgb(${red}, ${green}, ${blue})`;
 
-    // body এর ব্যাকগ্রাউন্ডে সেট করা
     document.body.style.backgroundColor = randomColor;
 }
 
